@@ -1,0 +1,212 @@
+*{margin: 0;
+  padding: 0;}
+
+
+  /*font-family: "Roboto", sans-serif;*/
+  
+header{
+  
+  width: 80%;
+  
+  margin: auto;
+  
+  text-align: center;
+  
+  padding: 30px 20px;
+}
+header h1{
+  
+  font-size: 40px;
+  
+  font-weight: 700;
+}
+  
+.works{
+  
+width: 70%;
+  
+margin: auto;
+  
+display: flex;
+  
+height: 700px;
+  
+margin-bottom:20px;
+}
+.color{background:#01d28e;width: 40%;}
+.discolor{
+  
+width: 60%;
+}
+
+.color h2{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: white;
+}
+.color p{width: 80%;margin: auto;line-height: 25px;font-size: 21px;color: white;}
+
+.location{
+
+}
+
+.location{
+
+width: 85%;
+
+display: flex;
+
+margin: auto;
+
+margin-top: 40px;
+
+margin-bottom: 40px;
+
+align-items: center;
+}
+.icon{
+
+border: 1px solid #ffff;
+
+border-radius: 70%;
+
+padding: 15px 15px;
+}
+.icon i{font-size: 20px;color: white;}
+.address{
+
+color: #fff;
+
+width: 100%;
+
+font-size: 21px;
+}
+.address p{
+  
+margin-left: 23px;
+}
+
+.address a{
+  
+text-decoration: none;
+  
+margin-left: 8px;
+  
+color:#fff;
+}
+
+.discolor h1{width: 80%;margin: auto;}
+
+.flex_part{width: 80%;margin: auto;display: flex;}
+.name{width: 80%;}
+.name p{
+
+margin-top: 30px;
+}
+.name input{
+
+border: none;
+
+outline: none;
+
+width: 90%;
+
+margin-top: 0px;
+
+border-bottom: 1px solid silver;
+
+font-size: 15px;
+}
+
+
+input::placeholder{
+  color:gray;
+}
+
+
+input:focus{
+
+  border-bottom: 2px solid #01d28e;
+}
+
+.subject{
+
+width: 80%;
+
+margin: auto;
+
+margin-top: 30px;
+}
+
+.subject input{
+  
+outline: none;
+  
+border: none;
+  
+border-bottom: 1px solid silver;
+  
+width: 95%;
+  
+height: 100%;
+  
+font-size: 15px;
+}
+
+input::placeholder{
+  color:gray;
+}
+
+
+input:focus{
+
+  border-bottom: 2px solid #01d28e;
+}
+.text_part{
+
+width: 80%;
+
+margin: auto;
+
+margin-top: 30px;
+}
+textarea{
+  
+width: 95%;
+  
+outline: none;
+  
+border: none;
+  
+border-bottom: 1px solid silver;
+}
+
+textarea:focus{
+  border-bottom:2px solid #01d28e;
+}
+
+.sending_part{
+
+width: 80%;
+
+margin: auto;
+
+margin-top: 40px;
+}
+.sending_part button{
+  
+padding: 12px 14px;
+  
+border: none;
+  
+border: 2px solid #01d28e;
+  
+border-radius: 8px;
+  
+background: #01d28e;
+  
+color: white;
+}
